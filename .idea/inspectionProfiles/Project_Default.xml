@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="openai" />
+            <item index="1" class="java.lang.String" itemvalue="sentence_transformers" />
+            <item index="2" class="java.lang.String" itemvalue="transformers" />
+            <item index="3" class="java.lang.String" itemvalue="scikit_learn" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="CNN_model.callbacks" />
+          <option value="llama_test.sentence_transformers" />
+          <option value="llama.generation.transformers" />
+          <option value="torch.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
